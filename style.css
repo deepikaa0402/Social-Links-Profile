@@ -1,0 +1,102 @@
+@import url(https://fonts.google.com/specimen/Inter);
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+body{
+    min-height: 100vh;
+    background: hsl(0, 0%, 8%);
+    display: flex;
+align-items: center;   
+justify-content: center;
+flex-direction: column;
+font-family: 'inter', sans-serif;
+}
+.container{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+background-color: yellow;
+width: 400px;
+padding: 25px; 
+border-radius: 15px;
+margin: auto;
+background-color: hsl(0, 0%, 12%);
+
+}
+.container img{
+    border-radius: 50%;
+    width: 40%;
+    height: 40%;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bio{
+    text-align: center;
+    padding: 0.8rem;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+}
+.bio h1{
+    color: white;
+
+}
+.bio span{
+    font-size: 18px;
+    color: hsl(75, 94%, 57%);
+}
+.bio p{
+    font-size: 16px;
+    padding: 13px;
+    color: hsl(0, 0%, 100%);
+}
+
+.socials{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+  text-align: center;
+  margin: 15px;
+  text-transform: capitalize;
+  width: 300px;
+  height: 40px;
+}
+.socials:hover{
+    cursor: pointer;
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(75, 94%, 57%);
+  
+}
+.socials span{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+@media(max-width: 375px){
+    .container{
+      width: 300px;
+      height: 550px;
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
+}
+.attribution{
+    color:hsl(0, 0%, 100%); 
+    font-size: 14px;  
+}
+.attribution a{
+    color: hsl(0, 0%, 100%);
+}
+.attribution a:hover{
+    cursor: pointer;
+  color: hsl(75, 94%, 57%);
+}
+
+
